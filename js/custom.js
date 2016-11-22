@@ -60,6 +60,7 @@ $(document).ready(function() {
     });
 });
 
+
 // Highlight menu item on scroll
 $(document).ready(function() {
     'use strict';

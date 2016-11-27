@@ -14,7 +14,7 @@ p {
 }
 
 
-/*GENERIC CSS*/
+/* GENERIC CSS */
 .section-title {
     padding-top: 90px;
     padding-bottom: 50px;
@@ -193,7 +193,7 @@ p {
 }
 
 
-/* ABOUT US*/
+/* ABOUT US */
 .choose-us-wraper{
     padding-top: 50px;
 }
@@ -264,7 +264,7 @@ p {
 } 
 
 
-/*TESTIMONIALS*/
+/* TESTIMONIALS */
 .testimonial {
     background-image: url("../images/testimonial-bg.jpg");
     background-attachment: fixed;
@@ -322,7 +322,7 @@ p {
 }
 
 
-/*FEATURES*/
+/* FEATURES */
 .features-inner-wrapper {
     padding-top: 30px;
     padding-bottom: 70px;
@@ -401,7 +401,7 @@ p {
 }
 
 
-/*COUNTER*/
+/* COUNTER */
 .counter {
     background-image: url("../images/counter-bg.jpg");
     background-repeat: no-repeat;
@@ -443,3 +443,38 @@ p {
     font-family: "Source Sans Pro", sans-serif;
 }
 
+
+/* PURCHASE NOW */
+.purchase-now {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.purchase-now p {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-pruchase-now,
+.btn-pruchase-now:active,
+.btn-pruchase-now:focus,
+.btn-pruchase-now:visited 
+{
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-pruchase-now:hover {
+    background-color: #1274B1;
+    border-color: #316B90;
+}
